@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Persona — Three People. Three Stories. One Space.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#" class="logo">Persona</a>
+        <span class="tagline">Three People. Three Stories. One Space.</span>
+      </div>
+
+      <nav class="nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#profiles" class="nav-link">Profiles</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn icon-btn" aria-label="Toggle theme">🌗</button>
+        <button id="menu-toggle" class="btn icon-btn mobile-only" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Every Person Has a Story.</h1>
+          <p class="lead">Persona is a small editorial archive that introduces three individuals — their journeys, experience, and skills — in one elegant space.</p>
+          <p><a href="#profiles" class="btn primary">Explore Profiles</a></p>
+        </div>
+        <div class="hero-art">
+          <!-- subtle editorial element -->
+          <div class="art-block">
+            <div class="art-lines"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILES -->
+    <section id="profiles" class="profiles container">
+      <h2 class="section-title">Profiles</h2>
+
+      <div class="cards">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-media">
+            <img src="images/profile-1.jpg" alt="Profile 1 photo" onerror="this.style.display='none'">
+            <div class="avatar-fallback" data-initials="SN"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Sinta Nurhandayani</h3>
+            <p class="card-role">Education Management</p>
+            <p class="card-summary">Education Management student active in student organizations and community volunteer work; experienced in event coordination, PMR (first aid), and leadership roles.</p>
+            <p class="card-skills"><strong>Top skills:</strong> Event Coordination · Public Speaking · Microsoft Office</p>
+            <div class="card-actions">
+              <a class="btn outline" href="profile.html?id=1">View Profile</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-media">
+            <img src="images/profile-2.jpg" alt="Profile 2 photo" onerror="this.style.display='none'">
+            <div class="avatar-fallback" data-initials="RK"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Raya Kamila Cb Winata</h3>
+            <p class="card-role">Student & Extracurricular Participant</p>
+            <p class="card-summary">Active in many school organizations (PMR, DrumBand, Paskibra, Volly, Hadroh, Saman) with experience in competitions and community activities.</p>
+            <p class="card-skills"><strong>Top skills:</strong> Teamwork · Event Participation · Organizational Activities</p>
+            <div class="card-actions">
+              <a class="btn outline" href="profile.html?id=2">View Profile</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="card-media">
+            <img src="images/profile-3.jpg" alt="Profile 3 photo" onerror="this.style.display='none'">
+            <div class="avatar-fallback" data-initials="AH"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-name">Adib Heliansyah</h3>
+            <p class="card-role">Student — Education Management</p>
+            <p class="card-summary">Organizationally experienced (event planning, committee roles, public speaking). Active in student committees and event execution during studies.</p>
+            <p class="card-skills"><strong>Top skills:</strong> Event Planning · Leadership · Communication</p>
+            <div class="card-actions">
+              <a class="btn outline" href="profile.html?id=3">View Profile</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about container">
+      <h2 class="section-title">About Persona</h2>
+      <p>Persona is an editorial-style archive that brings together three distinct personal profiles in one place. Each profile presents the individual's background, education, experience, and skills — preserving the original information from each CV. The design emphasizes clarity, curated whitespace, and subtle editorial details, letting each person's story stand out.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand small">
+          <span class="logo">Persona</span>
+          <span class="tagline">Three People. Three Stories. One Space.</span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <small>&copy; <span id="footer-year"></span> Persona</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
